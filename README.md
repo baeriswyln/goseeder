@@ -6,6 +6,13 @@
 [![Go Report Card](https://goreportcard.com/badge/kristijorgji/goseeder)](https://goreportcard.com/report/kristijorgji/goseeder)
 [![Sourcegraph](https://sourcegraph.com/github.com/kristijorgji/goseeder/-/badge.svg)](https://sourcegraph.com/github.com/kristijorgji/goseeder?badge)
 
+# Change Log
+
+This fork has a single change to the original version, written by kristijorgji.
+
+The prepared statement is made compatible with PostgreSQL, allowing the seeder to seed a pgql database. Compatibility
+with other system has not been tested. 
+
 #### Motivation
 Golang is a great language and getting better as community and frameworks, but there are still a lot of pieces missing for developing fast, accurate way and avoiding repetitions.
  
