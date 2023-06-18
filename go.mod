@@ -1,4 +1,4 @@
-module github.com/kristijorgji/goseeder
+module github.com/baeriswyln/goseeder
 
 go 1.15
 
