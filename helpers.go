@@ -55,10 +55,10 @@ func prepareStatement(table string, row map[string]interface{}) (strings.Builder
 	for k, v := range row {
 		if i == 0 {
 			left.WriteString(k)
-			right.WriteString("?")
+			right.WriteString("$1")
 		} else {
 			left.WriteString(fmt.Sprintf(", %s", k))
-			right.WriteString(", ?")
+			right.WriteString(fmt.Sprintf(", $%v", i+1))
 		}
 
 		args = append(args, parseValue(v))
